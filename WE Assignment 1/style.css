@@ -1,0 +1,285 @@
+*{
+    font-family: 'Montserrat', sans-serif;
+    scroll-behavior: smooth;
+}
+
+body {
+    overflow-x: hidden; /* Hide horizontal scrollbar */
+  }
+
+.header{
+    width:100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(36, 23, 22, 0.7),rgba(247, 244, 244, 0.158)),url("perfume.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    position: relative;
+}
+
+.header .logo{
+    position: relative;
+    left: 450px;
+}
+
+.nav{
+    position: absolute;
+    width:100%;
+}
+
+.nav a{
+    position: relative;
+    left: 440px;
+    padding: 10px 15px;
+    text-decoration: none;
+    color: white;
+}
+
+.nav :hover{
+    background-color: #ee9696;
+}
+
+.text-a{
+    color: white;
+    position: absolute;
+    width:85%;
+    top: 65%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    text-align: left;
+}
+.text-a1{
+    font-size: 15px;
+}
+.text-a2{
+    padding: 0%;
+    font-size: 80px;
+}
+
+.section-2{
+    height: 80vh;
+    background-image: linear-gradient(rgb(219, 142, 137),rgb(247, 244, 244));
+}
+
+.text-b{
+    color: white;
+    position: absolute;
+    width: 100%;
+    margin-top: 7%;
+    text-align: center;
+}
+.text-b1{
+    font-size: 30px;
+}
+.text-b2{
+    color: #C93851;
+    font-size: 50px;
+}
+.tbl{
+    margin-left: 5%;
+}
+.tbl1{
+    color:#C93851;
+    font-size: 30px;
+}
+.p{
+    color:gray
+}
+.checked{
+    color:#C93851
+}
+.section-3{
+    height: 90vh;
+}
+.section-4{
+    background-image: url(bbbbb.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width:100%;
+    height:60vh;
+}
+.text-c{
+    color: #C93851;
+    position: absolute;
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 800px;
+}
+.text-c1{
+    font-size: 40px;
+    padding: 10% 10%;
+}
+.text-c2{
+    font-size: 34px;
+}
+
+#section-5{
+    margin-top: 0%;
+    background-image: linear-gradient(rgba(236, 145, 136, 0.726),rgba(247, 244, 244, 0.158)),url(about3.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    width:100%;
+    height:120vh;
+}
+
+.container{
+    background-color: white;
+    width: 600px;
+    margin-left: 350px;
+    
+}
+.text-d1{
+    font-size: 50px;
+    color: white;
+    text-align: center; 
+}
+.text-d2{
+    margin-left: 10px;
+    color: #C93851;
+    font-size: 30px;
+}
+.text-d3{
+    margin-left: 10px;
+    color: rgb(61, 55, 55);
+    font-size: 40px;
+}
+.text-d4{
+    justify-content: center;
+    margin-left: 10px;
+    color: gray;
+}
+.text-d5{
+    justify-content: center;
+    margin-left: 10px;
+    color: gray;
+}
+
+.tbl2{
+    margin-top: 50px;
+    color:#C93851;
+    font-size: 50px;
+    text-align: center;
+}
+.abc{
+    
+    justify-content: center;
+}
+
+#section-7{
+    margin-top: 0%;
+    background-image: linear-gradient(rgba(236, 145, 136, 0.726),rgba(247, 244, 244, 0.158)),url(contact\ pic.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    width:100%;
+    height:120vh;
+}
+.text-e1{
+    font-size: 50px;
+    color: white;
+    text-align: center; 
+}
+
+.container2{
+    background-color: white;
+    width: 600px;
+    height: 570px;
+    margin-left: 350px;
+}
+.www{
+    margin-left: 20px;
+}
+.text-f1{
+    font-size: 20px;
+    color: #C93851;
+    text-align: center; 
+}
+
+.text-f2{
+    text-align: center;
+    font-size: 30px;
+}
+
+input[type="text"]{
+    margin-left: 20px;
+    border-radius: 6px;
+    padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+.name{
+    width: 250px;
+    height: 10px;
+}
+
+.mail{
+    width: 530px;
+    height: 10px;
+}
+
+.msg{
+    margin-left: 20px;
+    border-radius: 6px;
+    border-width: 2px;
+    border-color: black;
+    width: 530px;
+    height: 70px;
+    resize: none;
+}
+
+input[type="submit"]{
+    margin-left: 20px;
+    border-radius: 6px;
+    background-color: #C93851;
+    color: white;
+    height: 40px;
+    width: 100px;
+}
+
+input[type="submit"]:hover{
+    background-color: #ee9696;
+}
+
+footer{
+    position: absolute;
+    bottom: 0;
+    height : 100px;
+    width: 100%;
+}
+
+.leftbox {
+    float:left; 
+    background:#ee9696;
+    color: white;
+    width:25%;
+    height:280px;
+}
+.middlebox{
+    float:left; 
+    background:#ee9696;
+    width:50%;
+    height:280px;
+}
+.center {
+    position: relative;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    top: 25%;
+    width: 50%;
+  }
+.rightbox{
+    float:right;
+    background:#ee9696;
+    color: white;
+    width:25%;
+    height:280px;
+}
+.rightbox h3{
+    position: relative;
+    margin-right: 2%;
+}
+.jj{
+    margin-left: 10px;
+}
